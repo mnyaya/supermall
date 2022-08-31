@@ -52,7 +52,13 @@
       },
       finishPullUp() {
         this.scroll.finishPullUp()
-      }
+      },
+      refresh(){
+        this.scroll.refresh();
+      },
+      getScrollY(){
+      return this.scroll ? this.scroll.y : 0
+    }
     }
   }
 </script>
